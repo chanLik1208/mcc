@@ -70,9 +70,7 @@ input.onPinPressed(TouchPin.P1, function () {
         . . . . #
         . . # . .
         `)
-    for (let index = 0; index < 4; index++) {
-    	
-    }
+    music.startMelody(music.builtInMelody(Melodies.Chase), MelodyOptions.OnceInBackground)
     control.waitMicros(10)
     basic.showLeds(`
         . . . . .
