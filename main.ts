@@ -80,7 +80,6 @@ input.onPinPressed(TouchPin.P1, function () {
         . . . . .
         `)
 })
-pins.touchSetMode(TouchTarget.P1, TouchTargetMode.Capacitive)
 basic.forever(function () {
 	
 })
